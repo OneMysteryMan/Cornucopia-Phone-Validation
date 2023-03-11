@@ -1,0 +1,9 @@
+node_modules
+.vscode
+.vs
+.config
+publish
+bin
+obj
+wwwroot
+*.user
