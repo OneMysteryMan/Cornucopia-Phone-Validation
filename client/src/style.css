@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.button {
+		@apply rounded bg-blue-600 p-1  text-center text-xl text-white transition-colors hover:bg-blue-700;
+	}
+}
